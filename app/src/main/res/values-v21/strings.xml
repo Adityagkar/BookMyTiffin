@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="signout">Signout</string>
+    <string name="remember_me">remember me</string>
+    <string name="invoice">Invoice</string>
+    <string name="order_details">Order Details</string>
+    <string name="thank_you_for_booking">THANK YOU FOR BOOKING</string>
+    <string name="my_profile">My Profile</string>
+    <string name="_0">0</string>
+    <string name="latest_active_order_tiffins">Latest active order tiffins</string>
+    <string name="total_tiffins">Total Tiffins</string>
+    <string name="textview2">TextView</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="proceed">PROCEED</string>
+</resources>

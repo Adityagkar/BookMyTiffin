@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "925850791179",
+    "firebase_url": "https://bookmytiffin-62ebd.firebaseio.com",
+    "project_id": "bookmytiffin-62ebd",
+    "storage_bucket": "bookmytiffin-62ebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925850791179:android:c8153360458351dc",
+        "android_client_info": {
+          "package_name": "com.example.bookmytiffin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925850791179-8jq87vrao2p4e939ajbcigk2i6gplajb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookmytiffin",
+            "certificate_hash": "3b85c343609e63aef01b2b7019e65e74b384b154"
+          }
+        },
+        {
+          "client_id": "925850791179-61srrfdgdh78jhrmi169u2tcfs5ff4es.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbQefs1_E6FF6VjLEl3PVQlE5lKDPrTMo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925850791179-61srrfdgdh78jhrmi169u2tcfs5ff4es.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

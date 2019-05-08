@@ -1,0 +1,54 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BookMyTiffin</string>
+    <string name="tiffinlogo">TODO</string>
+    <string name="textview">In association with</string>
+    <string name="todo">logo</string>
+    <string name="powered_by">Powered By</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">Login</string>
+    <string name="todoS">TODOS</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="enter_your_password_here">Enter your password here</string>
+    <string name="enter_your_email_id_here">Enter your email id here</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite" tools:ignore="ExtraTranslation">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="place_a_new_order">Place a new order</string>
+    <string name="choose_start_date_and_end_date"> Cboose Start Date and End Date</string>
+    <string name="backdrop_title">Tiffin Centres </string>
+    <string name="backdrop_subtitle">Choose your tiffin provider</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_my_profile">MyProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="enter_the_4_digit_otp">Enter the 4 digit OTP</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_identity" translatable="false">Google Identity</string>
+    <string name="android_sign_in_with_google" translatable="false">Android Sign In with Google</string>
+    <string name="signout">Signout</string>
+    <string name="remember_me">remember me</string>
+    <string name="invoice">Invoice</string>
+    <string name="order_details">Order Details</string>
+    <string name="thank_you_for_booking">THANK YOU FOR BOOKING</string>
+    <string name="my_profile">My Profile</string>
+
+    <string name="_0">0</string>
+    <string name="latest_active_order_tiffins">Latest active order tiffins</string>
+    <string name="total_tiffins">Total Tiffins</string>
+    <string name="textview2">TextView</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="proceed">PROCEED</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_address">Your Address</string>
+    <string name="or_tap_to_select_your_location">OR tap to select your location</string>
+    <string name="your_mobile_no">Your Mobile No.</string>
+    <string name="select_location">select location</string>
+    <string name="user_info">User Info</string>
+    <string name="keep_me_signed_in">keep me signed in</string>
+</resources>

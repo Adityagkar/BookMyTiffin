@@ -1,0 +1,18 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+  <color name="colorPrimary">#2196f3</color>
+  <color name="primaryLightColor">#6ec6ff</color>
+  <color name="colorPrimaryDark">#EC027CE1</color>
+  <color name="secondaryColor">#455a64</color>
+  <color name="secondaryLightColor">#718792</color>
+  <color name="secondaryDarkColor">#1c313a</color>
+  <color name="primaryTextColor">#000000</color>
+  <color name="secondaryTextColor">#ffffff</color>
+  <color name="contrasting">#1c313a</color>
+  <color name="lightgray">#D3D3D3</color>
+  <color name="colorAccent">#455a64</color>
+  <color name="viewBg">#f1f5f8</color>
+  <color name="album_title">#4c4c4c</color>
+  <color name="calendar_selected_day_bg">#EC027CE1</color>
+
+</resources>

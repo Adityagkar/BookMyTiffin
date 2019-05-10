@@ -92,7 +92,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             String temp=locationName(newLoc);
 
             mMap.moveCamera(CameraUpdateFactory.newLatLng(newLoc));
-
+            mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(newLoc, 20.0f));
         }
 
         @Override
@@ -128,6 +128,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         String tempo=locationName(sydney);
         mMap.getUiSettings().setMapToolbarEnabled(false);
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney, 20.0f));
 
         mMap.setOnMarkerDragListener(new GoogleMap.OnMarkerDragListener() {
             @Override

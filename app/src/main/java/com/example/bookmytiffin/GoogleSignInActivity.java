@@ -37,6 +37,7 @@ public class GoogleSignInActivity extends AppCompatActivity {
     Button signout;
     CheckBox remember;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -98,7 +99,7 @@ public class GoogleSignInActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        FirebaseAuth.getInstance().signOut();
+    //    FirebaseAuth.getInstance().signOut();
     }
     private void signIn() {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
@@ -143,6 +144,7 @@ public class GoogleSignInActivity extends AppCompatActivity {
                                 SharedPreferences sharedpreferences = getSharedPreferences("MyDetails", Context.MODE_PRIVATE);
                                 SharedPreferences.Editor editor = sharedpreferences.edit();
                                 editor.putString("STATUS","TRUE");
+                                editor.putString("USERNAME",acct.getId());
                                 editor.commit();}
 
 

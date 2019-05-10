@@ -51,8 +51,6 @@ public class DetailsActivity extends AppCompatActivity {
         Intent a = new Intent(DetailsActivity.this,DecisionActivity.class);
         startActivity(a);
 
-
-
     }
     @Override
     protected void onResume() {

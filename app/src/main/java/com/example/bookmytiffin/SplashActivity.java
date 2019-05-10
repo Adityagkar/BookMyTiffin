@@ -46,7 +46,16 @@ public class SplashActivity extends AppCompatActivity {
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                     if(arePermissionsEnabled()){
-                        initApp();
+
+                        if( getSharedPreferences("MyDetails",Context.MODE_PRIVATE)
+                                .getString("STATUS","GOOGLE").equals("TRUE")){
+                            Intent intent = new Intent(SplashActivity.this,DecisionActivity.class);
+                            startActivity(intent);
+                            OrderData orderData = new OrderData();
+                            orderData.setId(getSharedPreferences("MyDetails",Context.MODE_PRIVATE)
+                                    .getString("USERNAME","sampleuser"));
+                        }else{
+                        initApp();}
                     //permissions granted, continue flow normally
                     }else{
                         requestMultiplePermissions();

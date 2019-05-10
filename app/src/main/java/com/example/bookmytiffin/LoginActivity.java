@@ -178,6 +178,20 @@ public class LoginActivity extends AppCompatActivity {
                             OrderData orderData = new OrderData();
                             String user = email.getText().toString().replace("@","-");
                             user = user.replace(".","-");
+                            if(remember.isChecked()) {
+                                SharedPreferences sharedpreferences = getSharedPreferences("MyDetails", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedpreferences.edit();
+                                editor.putString("ID",email.getText().toString());
+                                editor.putString("PWD",password.getText().toString());
+                                editor.commit();
+                            }else{
+                                SharedPreferences sharedpreferences = getSharedPreferences("MyDetails", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedpreferences.edit();
+                                editor.putString("ID","");
+                                editor.putString("PWD","");
+                                editor.commit();
+                            }
+
                             orderData.setId(user);
                             FirebaseUser userf = mAuth.getCurrentUser();
                              username = userf.getDisplayName();
@@ -225,6 +239,12 @@ public class LoginActivity extends AppCompatActivity {
                                 editor.commit();
                                 OrderData orderData = new OrderData();
                                 orderData.setId(user);
+                            }else{
+                                SharedPreferences sharedpreferences = getSharedPreferences("MyDetails", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedpreferences.edit();
+                                editor.putString("ID","");
+                                editor.putString("PWD","");
+                                editor.commit();
                             }
                         } else {
                             // If sign in fails, display a message to the user.
